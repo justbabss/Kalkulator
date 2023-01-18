@@ -9,3 +9,75 @@ body{
     height: 100vh;
     width: 100%;
 }
+
+section {
+    width: 85%;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 1.3rem;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    box-shadow: 9px 9px 20px,
+               5px 5px 6px #f3f3f3;
+}
+
+.buttonContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.85rem;
+  }
+  
+  .downbuttons {
+    grid-template-columns: 2.2fr 1fr 1fr;
+  }
+  
+  .button {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    cursor: pointer;
+    border-radius: 9px 5px 9px 5px;
+    transition: all 0.15s ease-in-out;
+    box-shadow: 5px 5px 8px,
+               -5px -5px 6px #f3f3f3;
+  }
+  
+  .button:hover {
+    box-shadow: 3px 3px 6px rgba(0 0 0 / .15),
+               -2px -2px 3px #f3f3f3;
+  }
+  
+  
+  .inputBox {
+    width: 100%;
+    height: 6rem;
+    justify-content: flex-end;
+    margin-bottom: 0.5rem;
+  }
+  
+  .inputBox input {
+    width: 100%;
+    padding: 0 0.5rem;
+    font-size: 2.2rem;
+    font-weight: 300;
+    text-align: right;
+    border: none;
+    color: blue;
+    background: transparent;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  input::placeholder {
+    color: black;
+  }
