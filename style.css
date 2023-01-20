@@ -56,14 +56,14 @@ section {
   }
   
   
-  .inputBox {
+  .input-Box {
     width: 100%;
     height: 6rem;
     justify-content: flex-end;
     margin-bottom: 0.5rem;
   }
   
-  .inputBox input {
+  .input-Box input {
     width: 100%;
     padding: 0 0.5rem;
     font-size: 2.2rem;
