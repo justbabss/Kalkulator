@@ -1,9 +1,9 @@
-const inputBox = document.getElementById('#input-Box')
+const inputBox = document.getElementById('input-Box')
 
-document.getElementById('#clear').addEventListener('click', () => inputBox.value = '' )
+document.getElementById('clear').addEventListener('click', () => inputBox.value = '' )
 document.getElementById('mc').addEventListener('click', () => inputBox.value.slice(0,-1))
-document.getElementById('#percentage').addEventListener('click', () => inputBox.value += '%')
-document.getElementById('#divide').addEventListener('click', () => inputBox.value += '/')
+document.getElementById('percentage').addEventListener('click', () => inputBox.value += '%')
+document.getElementById('divide').addEventListener('click', () => inputBox.value += '/')
 document.getElementById('seven').addEventListener('click', () => inputBox.value += '7')
 document.getElementById('eight').addEventListener('click', () => inputBox.value += '8')
 document.getElementById('nine').addEventListener('click', () => inputBox.value += '9')
@@ -19,8 +19,7 @@ document.getElementById('addition').addEventListener('click', () => inputBox.val
 document.getElementById('zero').addEventListener('click', () => inputBox.value += '0')
 document.getElementById('dot').addEventListener('click', () => inputBox.value += '.')
 document.getElementById('openBracket').addEventListener('click', () => inputBox.value += '(')
-document.getElementById('closedBracket').addEventListener('click', () => inputBox.value += ')')
-document.getElementById('equalto').addEventListener('click', () => inputField.value = eval(inputBox.value))
+document.getElementById('closeBracket').addEventListener('click', () => inputBox.value += ')')
+document.getElementById('equalto').addEventListener('click', () => inputBox.value = eval(inputBox.value))
 
 
-inputBox {}
